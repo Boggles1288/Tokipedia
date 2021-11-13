@@ -1,0 +1,131 @@
+P { text-align: center }
+H2 { text-align: center }
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #fff7c6;
+}
+
+h1 {
+  font-style:;
+  color: #373fff;
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.231;
+}
+
+body, button, input, select, textarea {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+#container {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+
+#tfd-bar {
+    z-index: 200;
+}
+
+#info-bar {
+    background-color: #cdedff;
+    padding: 4px 12px;
+    margin: 24px 0 24px 0;
+    font-size:12px;
+    position:relative;
+}
+
+#info-bar p {
+    margin:0;
+}
+
+#info-bar .close {
+    position: absolute;
+    right: 12px;
+    top: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: #dd4f3b;
+}
+
+label {
+    cursor: default;
+    font-weight: bold;
+    display: block;
+}v
+
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
